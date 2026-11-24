@@ -21,6 +21,8 @@ while (true) {
     let index = prompt("please enter the task index want to remove");
     todo.splice(index, 1);
     console.log("task removed");
+  } else {
+    console.log("Invalid request....please try again!😅")
   }
   req = prompt("Please enter your request");
 }
