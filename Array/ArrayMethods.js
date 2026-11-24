@@ -30,13 +30,29 @@ console.log(cars.includes("marsadis")); // return true of false
 let primary = ["orange", "mango", "lemon"];
 let secondary = ["january", "february", "june"];
 let merge = primary.concat(secondary); // it will merge both arrays
-console.log(merge); 
+console.log(merge);
 
 // reverse method
 console.log(primary.reverse()); // affect on upcomig method like slice
 
-// slice method 
-console.log(primary.slice(0,2));
-console.log(primary.slice(1));  // give index in reverse 
+// slice method  // it returns the copy of the array original array remains same
+console.log(primary.slice(0, 2));
+console.log(primary.slice(1)); // give index in reverse
 
-// splice method
+// splice method  // it changes the original array and returns the changes array
+// splice = removes/replaces/add elements in place //you can add or remove index in the original array
+// splice(start,deleteCount,item0...itemN)  //deleteCount is optional
+let colors = ["red", "yellow", "blue", "orange", "pink", "white"];
+console.log(colors.splice(3, 1, "grey"));
+console.log(colors);
+console.log(colors.splice(0, 0, "purple"));
+console.log(colors);
+
+//sort method
+let days = ["monday", "tuesday", "wednesday", "thursday", "friday", "sunday"];
+let daysCount = [72, 54, 69, 41, 32, 18, 21];  
+console.log(days.sort());
+console.log(daysCount.sort());
+// sort method for numbers in array converted to string thats why it is no applicable on numbers
+// this method is only applicable on strings
+
