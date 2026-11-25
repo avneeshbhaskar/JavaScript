@@ -19,5 +19,5 @@ const classInfo = {
 }
 console.log(classInfo);  
 console.log(classInfo.avneesh.city)  // chaining 
-classInfo.avneesh.city = "Shahjahanpur";
+classInfo.avneesh.city = "Shahjahanpur";  // update
 console.log(classInfo.avneesh.city)
