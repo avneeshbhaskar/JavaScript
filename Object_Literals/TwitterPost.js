@@ -3,7 +3,7 @@ const post = {
     content: "coding",
     likes: 390,
     reposts: 89,
-    tags: ["@mohit","@harsh"]
+    tags: ["@mohit","@harsh"]  // we can also store arrays inside objects
 }
 console.log(post);
 console.log(post.username); // syntax to get values in objects
