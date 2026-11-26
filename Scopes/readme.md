@@ -8,4 +8,4 @@ Scope:- scope determines the accessbility of
 
 3) Global Scope:- variables defined outside of any function or block are accessible from anywhere in the code. They have a global scope and can be accessed by any function or block within the same script.
 
-4) Lexical Scope:- variables defined in a parent function are accessible to child functions. This means that inner functions have access to the variables of their outer functions, creating a chain of scope.
+4) Lexical Scope:- variables defined in a parent function are accessible to child functions. This means that inner functions have access to the variables of their outer functions, creating a chain of scope.but not vice versa. Child functions cannot access variables defined in their outer functions or blocks.
